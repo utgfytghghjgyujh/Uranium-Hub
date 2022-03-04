@@ -1,11 +1,6 @@
 # 🧪 Uranium Site V3 
-### 🎟️ License
-This project uses CC Attribution 4.0 International as license. You are free to share and adapt Uranium Hub. If you're adapting, make sure you're changed the name to another instead. 
-
-JavaScript assets made NOT by us! Credits to creator.
-© Creative Commons. (see. https://creativecommons.org/licenses/by/4.0/)
-### 📚 Getting started
-▪ Check the license if you're going to use Uranium Hub. (see. https://creativecommons.org/licenses/by/4.0/)
+### ❔ What folder is it?
+This is folder of website directory of Uranium Hub. The website's source code is not obuscated. (Note: JavaScript assets are not made by us)
 
 ### 📙 Community Rules
 ▪ Do not claim that you've made Uranium Hub.
