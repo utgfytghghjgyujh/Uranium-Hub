@@ -1,18 +1,15 @@
-# 🧪 Uranium Hub V2.2 
+# 🧪 Uranium Site V3 
 ### 🎟️ License
 This project uses CC Attribution 4.0 International as license. You are free to share and adapt Uranium Hub. If you're adapting, make sure you're changed the name to another instead. 
 
 © Creative Commons. (see. https://creativecommons.org/licenses/by/4.0/)
 ### 📚 Getting started
-▪ First of all, check the license (see. https://creativecommons.org/licenses/by/4.0/)
- 
-▪ Make sure to read ToS before you use Uranium Hub
+▪ Check the license if you're going to use Uranium Hub. (see. https://creativecommons.org/licenses/by/4.0/)
 
-▪ Get your scripting utility ready
-### 📙 Terms of Service (ToS)
+### 📙 Community Rules
 ▪ Do not claim that you've made Uranium Hub.
 
-▪ Video creators should credit the creators of Uranium Hub, or Glitched Services.
+▪ Video creators may not credit the creators of Uranium Hub, or Glitched Services.
 
 ▪ If adapting Uranium Hub, you've should been credit owners of Uranium Hub, or Glitched Services.
 
