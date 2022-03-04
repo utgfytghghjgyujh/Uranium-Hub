@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="google-site-verification" content="MuOBYk2e2CgwddzlBF43k_ISfwqmSncIZ7zAGBkIxTU" />
+    <meta name='viewport' content='width=device-width,initial-scale=1'/>
+    <meta content='true' name='HandheldFriendly'/>
+    <meta content='width' name='MobileOptimized'/>
+    <meta content='yes' name='apple-mobile-web-app-capable'/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Uranium Hub ⼀ The Power of Uranium</title>
+    <meta name="author" content="Glitched Services" />
+    <meta
+      name="description"
+      content="A script-hub made by Glitched services has amazing count of games and weekly updates! Join cutt.ly/uraniumplant for more information."
+    />
+    <meta
+      name="keywords"
+      content="uranium,uraniumhub,hub,uranium hub,roblox,v3rmillion,script,free,jjsploit,synapse x, synapse, x, script-ware,script-hub,scripthub,script,free,hub,easy"
+    />
+    <meta name="Resource-type" content="Document" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://fonts.googleapis.com/css?family=Lato:300,400,700"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="javascript/jquery.pagepiling.css"
+    />
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="javascript/jquery.pagepiling.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        /*
+         * Plugin intialization
+         */
+        $("#pagepiling").pagepiling({
+          menu: "#menu",
+          anchors: ["page1", "page2", "page3", "page4"],
+          sectionsColor: ["green", "#ee005a", "#2C3E50", "#39C"],
+          navigation: {
+            position: "right",
+            tooltips: ["Uranium Hub", "Page 2", "Page 3", "Page 4"],
+          },
+          afterRender: function () {
+            $("#pp-nav").addClass("custom");
+          },
+          afterLoad: function (anchorLink, index) {
+            if (index > 1) {
+              $("#pp-nav").removeClass("custom");
+            } else {
+              $("#pp-nav").addClass("custom");
+            }
+          },
+        });
+
+        /*
+         * Internal use of the demo website
+         */
+        $("#showExamples").click(function (e) {
+          e.stopPropagation();
+          e.preventDefault();
+          $("#examplesList").toggle();
+        });
+
+        $("html").click(function () {
+          $("#examplesList").hide();
+        });
+      });
+    </script>
+
+    <style>
+      .button {
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        background-color: #04aa6d; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        text-align: center;
+        background: linear-gradient(
+          to right,
+          #00c72b 20%,
+          #00fe37 40%,
+          #00fe37 60%,
+          #00c72b 80%
+        );
+        background-size: 200% auto;
+
+        color: #000;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+
+        animation: shine 5s linear infinite;
+        @keyframes shine {
+          to {
+            background-position: 200% center;
+          }
+        }
+      }
+
+      .button2 {
+        border-radius: 4px;
+      }
+      .button2:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+          0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .neonText {
+        color: #00ff6a;
+        text-shadow: 0 0 7px #00ff6a, 0 0 10px #00ff6a, 0 0 21px #00ff6a,
+          0 0 42px #00ff6a, 0 0 82px #00ff6a, 0 0 92px #00ff6a,
+          0 0 102px #00ff6a, 0 0 151px #00ff6a;
+      }
+
+      /* Additional styling */
+
+      body {
+        font-size: 18px;
+        font-family: "Nunito", sans-serif;
+        background-color: #010a01;
+      }
+
+      ha1,
+      ha2 {
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+      }
+
+      ha1 {
+        font-size: 4.2rem;
+        font-weight: 400;
+      }
+
+      ha2 {
+        font-size: 1.8rem;
+        color: rgba(0, 0, 0, 0.3);
+      }
+
+      .container {
+        margin-top: 20vh;
+      }
+      /* Section 1
+	 * --------------------------------------- */
+      #section1 h1 {
+        color: #444;
+      }
+      #section1 p {
+        color: #333;
+        color: rgba(0, 0, 0, 0.3);
+      }
+      #section1 img {
+        margin: 20px 0;
+        opacity: 0.7;
+      }
+
+      /* Section 2
+	 * --------------------------------------- */
+      #section2 h1,
+      #section2 p {
+        z-index: 3;
+      }
+      #section2 p {
+        opacity: 0.8;
+      }
+
+      #section2 #colors {
+        right: 60px;
+        bottom: 0;
+        position: absolute;
+        height: 413px;
+        width: 258px;
+        background-image: url(imgs/colors.gif);
+        background-repeat: no-repeat;
+      }
+
+      /* Section 3
+	 * --------------------------------------- */
+      #section3 #colors {
+        left: 60px;
+        bottom: 0;
+      }
+      #section3 p {
+        color: #757575;
+      }
+
+      #colors2,
+      #colors3 {
+        position: absolute;
+        height: 163px;
+        width: 362px;
+        z-index: 1;
+        background-repeat: no-repeat;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+      }
+      #colors2 {
+        background-image: url(imgs/colors2.gif);
+        top: 0;
+      }
+      #colors3 {
+        background-image: url(imgs/colors3.gif);
+        bottom: 0;
+      }
+
+      /* Section 4
+	 * --------------------------------------- */
+      #section4 p {
+        opacity: 0.6;
+      }
+
+      /* Overwriting fullPage.js tooltip color
+	* --------------------------------------- */
+      #pp-nav.custom .pp-tooltip {
+        color: #aaa;
+      }
+      #markup {
+        display: block;
+        width: 450px;
+        margin: 20px auto;
+        text-align: left;
+      }
+      /* Backgrounds will cover all the section
+	* --------------------------------------- */
+      #section1,
+      #section2,
+      #section3 {
+        background-size: cover;
+      }
+
+      /* Defining each section background and styles
+	* --------------------------------------- */
+      #section1 {
+        background-image: url("https://cdn.glitch.global/66d726ea-efa6-4825-805c-99182b35ffa6/bg1.jpg?v=1642494974713");
+      }
+      #section2 {
+        background-image: url("https://cdn.glitch.global/66d726ea-efa6-4825-805c-99182b35ffa6/bg2.jpg?v=1642495019358");
+        padding: 6% 0 0 0;
+      }
+      #section3 {
+        background-image: url("https://cdn.glitch.global/66d726ea-efa6-4825-805c-99182b35ffa6/bg3.jpg?v=1642494960232");
+		padding: 6% 0 0 0;
+	}
+	#section4{
+		background-image: url("https://cdn.glitch.global/66d726ea-efa6-4825-805c-99182b35ffa6/bg4.jpg?v=1642494930116");
+        padding: 6% 0 0 0;
+      }
+      #section3 h1 {
+        color: #000;
+      }
+      .nobutton {
+        position: absolute;
+        left: 44%;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 6px;
+        margin: 10px;
+        padding: 1em 3em;
+        background-size: 300% 300%;
+        color: white;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11),
+          0 1px 3px rgba(0, 0, 0, 0.08);
+        background-image: linear-gradient(
+          to right,
+          #00ff37 0%,
+          #009113 50%,
+          #00ff37 100%
+        );
+        transition: 0.5s;
+      }
+      .nobutton:hover {
+        background-position: right center;
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik:wght@300;400&display=swap");
+      haa1 {
+        background: radial-gradient(
+          circle,
+          #00fa3e 0%,
+          #009625 20%,
+          #00fa3e 40%,
+          #00fa3e 60%,
+          #009625 100%
+        );
+        font-size: 2rem;
+        text-shadow: 1px 1px 12px #000000;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-size: 400%;
+        animation: gradient 10s linear infinite alternate;
+        font-family: "Nunito", sans-serif;
+        font-weight: 100;
+      }
+      @keyframes gradient {
+        0% {
+          background-position: 0%;
+        }
+        100% {
+          background-position: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="menu">
+      <li data-menuanchor="page1" class="active">
+        <a href="#page1">Uranium Hub V2.2</a>
+      </li>
+      <li data-menuanchor="page2"><a href="#page2">Easiness</a></li>
+      <li data-menuanchor="page3"><a href="#page3">Featureful</a></li>
+      <li data-menuanchor="page4"><a href="#page4">Legitimate</a></li>
+      <li1><a href="https://discord.gg/sBXadQTGGz">Discord</a></li1>
+      <li1><a href="https://discord.gg/SKsfvP93tK">🎉Happy Bday, QonixDev!🥳</a></li1>
+      <li1><a href="https://uraniumhub.tk/storage/script.lua">Script</a></li1>
+    </ul>
+
+    <div id="pagepiling">
+      <div class="section" id="section1">
+        <ha1 class="neonText">Uranium Hub</ha1><br />
+        <haa1>The Power of Uranium</haa1>
+        <div id="markup">
+          <script src="https://gist.github.com/Steveuss/75ff72fb01c0407a711a0fbc425c64bc.js"></script>
+        </div>
+      </div>
+      <div class="section" id="section2">
+        <div class="intro">
+          <ha1 class="neonText">Easy to Use</ha1><br />
+          <haa1
+            >A script doesn't work? We have solution! Just look under the button
+            or look for tooltip by covering button using mouse.</haa1
+          >
+        </div>
+      </div>
+      <div class="section" id="section3">
+        <div class="intro">
+          <ha1 class="neonText">Mountain of Features</ha1><br />
+          <haa1
+            >Our script had 50+ scripts in Version 1! It's got improved a lot in
+            further versions.</haa1
+          >
+        </div>
+      </div>
+      <div class="section" id="section4">
+        <div class="intro">
+          <ha1 class="neonText">Legitimate</ha1><br />
+          <haa1
+            >Glitched Services provides Uranium Hub for over <b>9</b> months!
+            Started providing from <b>04/09/21</b>!</haa1
+          ><br />
+          <haa1>We currently have <b>10</b> vouches on our Discord server!</haa1
+          ><br />
+          <a href="#0" class="nobutton">Read More</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
