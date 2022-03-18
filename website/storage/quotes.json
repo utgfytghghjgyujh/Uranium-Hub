@@ -1,8 +1,8 @@
-[
-  {
-    random: function (tags) {
-      var random = ['"@GoHamza" - SteveIsGlitched', '"mario wants a your liver" - GoHamza', '"give me your kidney" - baj the bananaman', '"press alt + f4 for secret gui" - GoHamza'];
-      return random[tags.integer(0, random.length - 1)];
-    }
+
+{
+  random: function (tags) {
+    var random = ['"@GoHamza" - SteveIsGlitched', '"mario wants a your liver" - GoHamza', '"give me your kidney" - baj the bananaman', '"press alt + f4 for secret gui" - GoHamza'];
+    return random[tags.integer(0, random.length - 1)];
   }
-]
+}
+
